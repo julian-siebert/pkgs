@@ -3,7 +3,7 @@
 #
 # Buffy installer
 # Usage:
-#   curl -sSL https://pkgs.julian-siebert.de/install.sh | sh
+#   curl -sSL https://pkgs.julian-siebert.de/buffy/install.sh | sh
 #
 # Environment variables:
 #   BUFFY_VERSION    Version to install (default: latest)
