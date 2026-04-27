@@ -93,11 +93,15 @@ detect_target() {
             esac ;;
         Darwin)
             case "$arch" in
+                x86_64)               echo "x86_64-apple-darwin" ;;
                 arm64)                echo "aarch64-apple-darwin" ;;
                 *) die "unsupported macOS architecture: $arch" ;;
             esac ;;
         MINGW*|MSYS*|CYGWIN*)
-            die "Windows detected; please use the PowerShell installer instead" ;;
+            case "$arch" in
+                x86_64)               echo "x86_64-pc-windows-msvc" ;;
+                *) die "unsupported Windows architecture: $arch" ;;
+            esac ;;
         *)
             die "unsupported operating system: $os" ;;
     esac
