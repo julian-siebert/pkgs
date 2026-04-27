@@ -1,0 +1,22 @@
+{
+  "version": "0.1.0",
+  "released": "2026-04-27T18:22:49Z",
+  "targets": {
+    "aarch64-apple-darwin": {
+      "binary": "buffy",
+      "sha256": "48efc1d752523e48fd86152b6a7e029fc5143d1e74136fd8ad18081487133771"
+    },
+    "aarch64-unknown-linux-gnu": {
+      "binary": "buffy",
+      "sha256": "75b787800f0639eade576eded0830d5c5b624e16ec677b8390d3488f8f405e50"
+    },
+    "x86_64-pc-windows-msvc": {
+      "binary": "buffy.exe",
+      "sha256": "ddc87294b9811f8c9621f4fbaa22525ac9768bcef4bd3444272b7a418133e56b"
+    },
+    "x86_64-unknown-linux-gnu": {
+      "binary": "buffy",
+      "sha256": "03936581005ad425283a1a61fc1324b759822fe767b53294447cf410d7a9c473"
+    }
+  }
+}
